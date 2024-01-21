@@ -156,7 +156,7 @@
       <div class="hero -ml-5 ">
         <div class="hero-content flex-col-reverse lg:flex-row-reverse gap-6 py-8">
           <!------------------- Client Review Card Container------------ -->
-          <div class=" relative pl-5 ">
+          <div class=" relative pl-10 lg:pl-5 ">
             <!---------------Next Review----------------->
             <div class="relative bg-white z-10 rounded-2xl opacity-40 mb-5 px-9 py-7 max-w-md">
               <div class="rounded-full border-4 border-white absolute -top-7 -left-9">
@@ -171,7 +171,7 @@
               </div>
             </div>
             <!---------------Current Review----------------->
-            <div class="absolute top-28 -left-12 z-20 bg-white rounded-2xl px-9 py-7 max-w-md">
+            <div class="absolute top-28 left-12 lg:top-28 lg:-left-12 z-20 bg-white rounded-2xl px-9 py-7 max-w-md">
               <div class="rounded-full border-4 border-white absolute -top-7 -left-9">
                 <img src="images/client.png">
               </div>
@@ -203,7 +203,7 @@
               <br> Clients</h2>
             <p class="py-6 max-w-sm text-white">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-            <button class="btn bg-white text-[#EF4444]">Show All</button>
+            <button class="btn bg-white text-[#EF4444] mb-5">Show All</button>
           </div>
         </div>
       </div>
@@ -254,13 +254,13 @@
     </section>
   </main>
 
-  <footer class="px-52">
+  <footer class=" lg:px-52">
     <!------footer first div----->
-    <div class="footer py-10 justify-between mb-12 ">
-      <aside class="flex">
+    <div class="footer py-10 justify-center lg:justify-between mb-12 ">
+      <aside class="flex mx-auto">
         <img src="images/cup.png" alt="">
       </aside>
-      <nav class="flex items-center gap-8">
+      <nav class="flex items-center gap-3 lg:gap-8">
         <h4 class="text-[#494949] font-medium text-xl">Ready to get strated?</h4>
         <button class="bg-gradient-to-r from-orange-400 to-red-500 py-4 px-6 text-white font-bold rounded-xl">Get
           Started</button>
@@ -268,7 +268,7 @@
     </div>
     </div>
     <!------footer Second div----->
-    <div class="footer justify-between">
+    <div class="footer grid-cols-2 px-6 lg:grid-cols-4 ">
       <nav>
         <header class="font-extrabold mb-5 text-2xl text-[#1C1C1C]">Services</header>
         <a class="link link-hover">Branding</a>
@@ -284,11 +284,11 @@
         <a class="link link-hover">Press kit</a>
       </nav>
       <nav>
-        <header class="font-extrabold mb-5 text-2xl text-[#1C1C1C]">Help</header>
+        <header class="font-extrabold col-span-2 mb-5 text-2xl text-[#1C1C1C]">Help</header>
         <a class="link link-hover">FAQs</a>
         <a class="link link-hover">Contact Us</a>
       </nav>
-      <nav>
+      <nav class="col-span-2">
         <header class="font-extrabold mb-5 text-2xl text-[#1C1C1C]">Subscribe to our <br>
           newsletter</header>
         <div class="flex justify-between gap-3">
